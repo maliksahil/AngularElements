@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Button Test Page</title>
+  <script src="ship.js"></script>
+</head>
+
+<body>
+  <ngelements-button label="First Value"></ngelements-button>
+
+  <script>    
+    var button = document.querySelector('ngelements-button');
+    button.addEventListener('clicked', function(event){
+      alert(event.detail);
+    });
+
+  </script>
+</body>
+
+</html>
